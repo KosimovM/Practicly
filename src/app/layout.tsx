@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { store } from '@/app/lib/Store/store'
 import Headr from '@/app/ui/Heders/layout'
 import Footer from '@/app/ui/Footer'
+import './globals.css'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

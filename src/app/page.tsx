@@ -28,17 +28,17 @@ export default function Home() {
             <h1 className="text-6xl lg:text-8xl font-black tracking-tighter mb-8 transition-all">
               <span className="text-gradient">Experience</span> the Art of <span className="italic font-serif">Writing.</span>
             </h1>
-            <p className="text-xl text-foreground/40 mb-12 leading-relaxed max-w-2xl mx-auto">
-              Макони идеаҳо ва дониш. Дар ин ҷо ту метавонед мақолаҳо, идеяҳо, омӯзишҳо ва блогҳои шахсиро мутолиа кунӣ. Ҳар рӯз мазмуни нав!
+            <p className="text-xl text-foreground/70 dark:text-foreground/80 mb-12 leading-relaxed max-w-2xl mx-auto">
+              Макони идеалӣ барои идеяҳо ва дониш. Дар ин ҷо шумо метавонед мақолаҳо, идеяҳо ва блогҳои шахсиро мутолиа кунед.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button
+              <button 
                 onClick={() => setAddOpen(true)}
-                className="w-full sm:w-auto px-10 py-5 bg-gradient-premium text-white font-black rounded-2xl shadow-2xl shadow-primary/30 transition-all hover:-translate-y-1 hover:shadow-primary/40 active:scale-95"
+                className="w-full sm:w-auto px-10 py-5 bg-gradient-vibrant text-white font-black rounded-2xl shadow-xl shadow-primary/20 transition-all hover:-translate-y-1 active:scale-95"
               >
                 Create New Post
               </button>
-              <button className="w-full sm:w-auto px-10 py-5 bg-white dark:bg-slate-900 border border-border hover:border-primary/30 text-foreground font-black rounded-2xl transition-all hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xl shadow-black/5">
+              <button className="w-full sm:w-auto px-10 py-5 bg-white dark:bg-slate-800 border-2 border-primary/10 hover:border-primary/30 text-foreground font-black rounded-2xl transition-all shadow-lg">
                 Explore Categories
               </button>
             </div>

@@ -6,6 +6,7 @@
 
  export interface CadrState {
   data: Cadr[];
+  card: Cadr | null;
  }
 
  export interface CadrPost {

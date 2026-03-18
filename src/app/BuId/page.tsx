@@ -1,4 +1,6 @@
 
+'use client';
+
 import { getCardById } from '@/app/lib/Api/api';
 import { AppDispatch, RootState } from '@/app/lib/Store/store';
 import React, { useEffect } from 'react';
@@ -18,8 +20,8 @@ const Cardpage = ({ id }: CardPageProps) => {
 
   return (
     <div>
-      <h1>{card.title}</h1>
-      <p>{card.description}</p>
+      <h1>{card?.name}</h1>
+      <p>{card?.description}</p>
     </div>
   );
 };
